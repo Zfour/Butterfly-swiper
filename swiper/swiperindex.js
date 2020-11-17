@@ -2,8 +2,10 @@ let swiper = new Swiper('.blog-slider', {
 	spaceBetween: 30,
 	effect: 'fade',
 	loop: true,
-	autoplay: true,
-	delay:3000,
+    autoplay: {
+    disableOnInteraction: true,
+	delay:3000
+    },
 	mousewheel: {
 		invert: false,
 	},
@@ -13,5 +15,13 @@ let swiper = new Swiper('.blog-slider', {
 		clickable: true,
 	}
 });
+
+  let comtainer = document.getElementById('swiper_container');
+      comtainer.onmouseenter = function () {
+        swiper.autoplay.stop();
+      };
+      comtainer.onmouseleave = function () {
+        swiper.autoplay.start();
+      }
 
 

@@ -243,6 +243,7 @@
   margin: 8px 0;
 }
 @media screen and (max-width: 768px) {
+
   .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 5px;
   }
@@ -266,4 +267,9 @@
     height: 11px;
     width: 30px;
   }
+}
+.blog-slider__button{display:none}
+@media screen and (max-width: 768px) {
+	.blog-slider__button{display:inline-flex}
+	.blog-slider__text{margin-bottom:40px}
 }
