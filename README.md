@@ -14,7 +14,7 @@ top_img: /images/letter/t.png
 
 ## 序言：效果展示 ##
 
-![example](zfe.space/images/top.png)
+![example](https://zfe.space/images/top.png)
 <p>感谢xwcker提供的魔改思路。</p>
 <p>因为置顶文章过多太占位置，所以写了这个手动置顶的部件。</p>
 <p>项目用到了swiper</p>
