@@ -1,4 +1,5 @@
 let swiper = new Swiper('.blog-slider', {
+	passiveListeners:true,
 	spaceBetween: 30,
 	effect: 'fade',
 	loop: true,
