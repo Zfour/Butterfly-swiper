@@ -7,9 +7,7 @@ let swiper = new Swiper('.blog-slider', {
     disableOnInteraction: true,
 	delay:3000
     },
-	mousewheel: {
-		invert: false,
-	},
+	mousewheel:false,
 	// autoHeight: true,
 	pagination: {
 		el: '.blog-slider__pagination',
