@@ -1,4 +1,4 @@
-let swiper = new Swiper('.blog-slider', {
+var swiper = new Swiper('.blog-slider', {
 	passiveListeners:true,
 	spaceBetween: 30,
 	effect: 'fade',
@@ -15,7 +15,7 @@ let swiper = new Swiper('.blog-slider', {
 	}
 });
 
-  let comtainer = document.getElementById('swiper_container');
+  var comtainer = document.getElementById('swiper_container');
       comtainer.onmouseenter = function () {
         swiper.autoplay.stop();
       };
