@@ -17,7 +17,8 @@ var swiper = new Swiper('.blog-slider', {
 	}
 });
 
-  var comtainer = document.getElementById('swiper_container');
+if(document.getElementById('swiper_container')){
+   var comtainer = document.getElementById('swiper_container');
       comtainer.onmouseenter = function () {
         swiper.autoplay.stop();
       };
@@ -25,4 +26,6 @@ var swiper = new Swiper('.blog-slider', {
         swiper.autoplay.start();
       }
 
+   }
+  
 
